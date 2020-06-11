@@ -1,5 +1,5 @@
 var assert = require('nanoassert')
-var wasm = require('./blake2b')()
+var wasm = require('./blake2b.js')()
 
 var head = 64
 var freeList = []
